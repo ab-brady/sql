@@ -58,7 +58,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 ```
 Your answer...
 ```
-
+Type 1 architecture saves only one address per customer record and permits an address override in the event of address change. The address history is not retained. 
+Type 2 architecture permits multiple address records per customer (e.g. home, business, etc) and retains address history in the event an address change occurs.
 ***
 
 ## Section 2:
